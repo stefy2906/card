@@ -6,16 +6,46 @@
     <title>Card</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico">
+    <script src="js/js.js"></script>
 </head>
 <body>
-  <header>
-    <img src="favicon.ico" alt="logo" width="9%" height="9%">
-  </header>
+    <header>
+        <img src="favicon.ico" alt="logo" width="9%" height="9%">
+        <div class="btnbanner">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+          </ul>
+        </div>  
+      </header>
+      <br/><br/> <br/><br/> 
+      <div class="formularioContato">
+        
+        <form action="#" method="post">
+            <label>
+                <span>Nome</span>
+                <input type="text" name="nome" required="">
+            </label>
+            
+            <label>
+                <span>E-mail</span>
+                <input type="text" name="email" class="fade_8S">
+            </label>
+            <label>
+                <span>Assunto</span>
+                <input type="text" name="assunto" required="">
+            </label>
+            
+            <label>
+                <span>Mensagem</span>
+                 <textarea name="mensagem" rows="3" required=""></textarea> 
+            </label>
+           
+            <input type="hidden" name="acao" value="enviar" />
+            <button class="btn-envia" onclick="Enviar();" title="Enviar"> Enviar</b></button>
+        
+        </form>
+    </div>
+      <br/><br/>
 
-
-  
-  <footer>
-     
-  </footer>
 </body>
 </html>

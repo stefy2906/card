@@ -6,5 +6,5 @@
 
 # Screenshot
 
-![image](/img/print.png)
+![image](/img/Captura.png)
 
